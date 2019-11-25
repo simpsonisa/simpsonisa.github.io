@@ -1,0 +1,149 @@
+*{font-family: 'Monda', sans-serif;}
+*{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
+h1{text-align: center;}
+.container{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr; margin-left: 25px;margin-right: 25px;
+    grid-gap: 4px;
+}
+.a{width: 300px;}
+.b{width: 300px;}
+.c{width: 300px;}
+.d{width: 300px;}
+.e{width: 300px;}
+.f{width: 300px;}
+
+a:visited{
+    color: rgb(230, 298, 97);;text-decoration: none;}
+a{color: rgb(230, 298, 97);;text-decoration: none;}
+
+    .masthead{ background-color: rgb(37,37,37);border-radius: 10pt;
+        width: 85%; margin-left: 80px;height: 45px;}
+    
+            .infobutton{ position: relative;
+                top:2px;
+                left:70px;
+                color: rgb(230, 298, 97); font-size:18pt}
+            .graphicsbutton{ position:relative;
+                top:-92px;
+                right: -170px;
+                color: rgb(230, 298, 97);; font-size:18pt}
+             .photography{ position: relative;
+                top:-188px;
+                right:-320px;
+                color: rgb(230, 298, 97);; font-size:18pt}
+            .doodlesbutton{ position: relative;
+                top:-282px;
+                right: -520px;
+                color: rgb(230, 298, 97);; font-size:18pt}
+.atext{position: relative;
+    top: -30px;
+        font-size: 35px;z-index: -1;}
+.btext{position: relative;
+ top: -30px;
+        font-size: 35px;}
+.ctext{position: relative;
+        ;top: -30px;
+        font-size: 35px;}
+.dtext{position: relative;
+        ;top: -30px;
+        font-size: 35px;}
+.etext{position: relative;
+        ;top: -30px;
+        font-size: 35px;}
+.ftext{position: relative;
+        ;top: -30px;
+        font-size: 35px;}
+
+
+
+
+        
+
+.a {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.a:hover {
+    opacity: .6;
+    transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -webkit-transition: opacity .70s ease-in-out;}
+.b {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.b:hover {
+    opacity: .6;
+    transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -webkit-transition: opacity .70s ease-in-out;}
+.c {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.c:hover {
+    opacity: .6;
+    transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -webkit-transition: opacity .70s ease-in-out;}
+.d {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.d:hover {
+    opacity: .6;
+    transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -webkit-transition: opacity .70s ease-in-out;}
+.e {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.e:hover {
+    opacity: .6;
+    transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -webkit-transition: opacity .70s ease-in-out;}
+.f {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.f:hover {
+    opacity: .6;
+    transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -webkit-transition: opacity .70s ease-in-out;}
+
+
+ #fade{ 
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}    
+
+.yellowone{position: absolute;
+    top:435px;
+    width: 210px;
+    left: -4px;}

@@ -1,0 +1,22 @@
+*{font-family: 'Monda', sans-serif;}
+*{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
+a{text-decoration: none;color: black;}
+.background{position:fixed;top:-1px;width: 100%;right: 1px;}
+h1{font-size: 72pt;position: fixed;left:260px;top: -55px;}
+
+
+
+*{ 
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
