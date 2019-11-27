@@ -1,0 +1,126 @@
+*{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313639;
+    font-family:basic-sans;
+    border-radius: 13px;}
+
+.container {
+    display: grid;
+    grid-gap: 11px;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 70px auto auto 50px 50px 50px;
+    grid-template-areas: 
+        "h h h h h h h h h h h"
+        "b b b i i i i i a a a"
+        "b b b c c c c c s s s"
+        "b b b p p p p p s s s"
+        "b b b p p p p p s s s"
+        "f f f f f f f f f f f";}
+
+.header {
+    grid-area: h;
+    font-size: 4em;
+    font-family:basic-sans;font-weight:Bold;
+    background-color: #81ffab;
+    }
+
+.skills {
+    grid-area: s;
+    background-color: #81ffab; 
+    text-align: left;
+    font-size: 105%;
+    padding-right:80px;}
+
+.icon {
+    grid-area: i;
+    height: 100%; width: 65%;
+    margin-left: .82in;
+}
+
+.contact {
+    grid-area: c;
+    background-color: #81ffab;
+    text-align:center;
+    padding-right:10px;}
+.behance {
+    grid-area: p;
+    background-color: #81ffab;
+    text-align: center;
+    line-height: 0%;
+    font-size: 150%;
+    padding-right:10px;}
+
+.portfolio {
+    grid-area: w;
+    background-color: #81ffab;}
+
+.bio {
+    grid-area: b;
+    background-color: #81ffab;
+    text-align: left;
+    font-size: 105%;
+    padding-right:40px;}
+
+h1{font-family:basic-sans;font-weight:SemiBold;
+    text-align: left;}
+
+.footer {
+    grid-area: f;
+    background-color: #81ffab;}
+
+.icon:hover {
+    transform-origin: center;
+    transition: 0.65s;
+    -webkit-transition: 0.90s;
+    -moz-transition: 0.90s;
+    -ms-transition: 0.90s;
+    -o-transition: 0.90s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);} 
+
+  .boldskills {line-height: 1px;
+    text-decoration: underline;}
+
+.hobbies {
+    grid-area: a;
+    background-color: #81ffab; 
+    text-align:left;
+    padding-right:40px;}
+
+.boldhobbies {line-height: 1px;text-decoration: underline}
+
+.hey{text-decoration: underline}
+
+@media screen and (max-width: 600px) {
+.container {
+    font-size: 120%;
+    height: 100%;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "h"
+        "i"
+        "b"
+        "s"
+        "a"
+        "c"
+        "p"
+        "f"}
+h1{text-align: center}
+.skills{text-align: center;padding-right:40px;}
+.hobbies{text-align: center}
+.contact{padding-right:40px;}
+.behance{padding-right:40px;}
+.bio{text-align: justify; font-size: 2em;}
+.header{text-align: center;font-size: 3em;}
+.icon{padding-left:15px ;}
+*{cursor: default}
+}
