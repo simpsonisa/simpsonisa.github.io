@@ -21,3 +21,10 @@ h3{font-size: 35pt;position: fixed;left:150px;top: 70px;color:rgb(255, 241, 51)}
         opacity: 1; 
      } 
 } 
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+.background{left:-200px;width: 1000px;}
+*{cursor: default}
+}

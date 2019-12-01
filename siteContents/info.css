@@ -1,6 +1,8 @@
 *{font-family: 'Monda', sans-serif;}
 *{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
 .container{display: grid;
+    grid-template-columns:1fr -1fr -1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         ". m m m ."
         "p p p b b"
@@ -19,42 +21,41 @@ a{color: rgb(230, 298, 97);;text-decoration: none;}
 
         .infobutton{ position: relative;
             top:-54px;
-            left:70px;
+            left:55px;
             color: rgb(230, 298, 97);; font-size:18pt}
         .graphicsbutton{ position:relative;
             top:-148px;
-            right: -170px;
+            right: -155px;
             color: rgb(230, 298, 97);; font-size:18pt}
          .photography{ position: relative;
             top:-244px;
-            right:-320px;
+            right:-305px;
             color: rgb(230, 298, 97);; font-size:18pt}
         .doodlesbutton{ position: relative;
             top:-337px;
-            right: -520px;
+            right: -505px;
             color: rgb(230, 298, 97);; font-size:18pt}
 
 .portrait{ grid-area: p;
-    width: 75%;padding-left: 100px;position: relative;top:4px
+    width: 75%;padding-left: 100px;position: relative;top:-20px
 }
 
-.bio{grid-area:b;padding-right: 200px;padding-top:40px;}
+.bio{grid-area:b;padding-right: 200px;top:-30px;position: relative;}
     h5{font-size: 16pt; }
     p{font-size: 10pt;position:relative;top:-25px}
 
-.line{ grid-area: l; width: 660px; margin-left: 95px;background-color: rgb(37,37,37);
+.line{ grid-area: l; width: 650px; margin-left: 95px;background-color: rgb(37,37,37);
 height: 1px;}
 
-.credentials{ grid-area: c;margin-left: 190px;
+.credentials{ grid-area: c;margin-left: 190px;position: relative;left:30px
 }
-    .list{line-height: 40px;position: relative;top:-25px}
-    h3{margin-left: 40px;font-size: 20pt;}
-.morecredentials{ grid-area: t;
+    .list{line-height: 40px;position: relative;top:-155px}
+    h3{margin-left: 40px;font-size: 20pt;position: relative;top:-145px}
+.morecredentials{ grid-area: t;position: relative;left:30px
 }
-    .listtwo{line-height:40px;position: relative;top:-25px}
+    .listtwo{line-height:40px;position: relative;top:-155px}
 
-.linetwo{grid-area:z; width: 670px; margin-left: 165px;background-color: rgb(37,37,37);
-    height: 1px;}
+
 
 
 #fade{ 
@@ -81,3 +82,39 @@ h4{position: relative;
     z-index: 2;
     background-color: rgb(37,37,37);border-radius: 8px;
     width: 100px;}
+
+    /* Mobile */
+
+@media screen and (max-width: 600px) {
+.container {
+    font-size: 120%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "m"
+    "p"
+    "b"
+    "b"
+    "l"
+    "c"
+    "t"}
+.insta{visibility: hidden;}
+.red{visibility: hidden;}
+.portrait{width: 60%;position: relative;left:-40px;top:10px}
+.masthead{position: relative;right:100px;}
+.infobutton{font-size: 14pt;top:-35px;left:60px}
+.graphicsbutton{font-size: 14pt;top:-109px;left:140px}
+.photography{font-size: 14pt;top:-182px;left:260px}
+.doodlesbutton{font-size: 14pt;top:-254px;left:400px}
+h5{position: relative;left:180px;}
+p{text-align: center;padding-right:70px;padding-left:10px}
+h4{position:relative;left:197px;}
+.line{position: relative;left: -100px;bottom:80px}
+.credentials{position: relative;left:-44px;top:50px}
+.morecredentials{position: relative;left:130px;}
+.list{text-align: center;position: relative;left:-200px;top:-170px;}
+.listtwo{text-align: center;position: relative;left:-280px;top:-170px}
+*{cursor: default}
+}
