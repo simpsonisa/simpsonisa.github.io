@@ -307,7 +307,7 @@ a{color: rgb(230, 298, 97);text-decoration: none;}
 @media screen and (max-width: 600px) {
 .container{display: grid;
 grid-template-columns: repeat(auto-fill, minmax (100px,1fr));
-grid-auto-columns: 1fr;
+grid-auto-columns:1fr;
 }
 .masthead{position: relative;right:100px;top:-35px;width:1000px;}
 .infobutton{position:relative;font-size: 14pt;top:7px;left:55px}
@@ -315,5 +315,9 @@ grid-auto-columns: 1fr;
 .photography{font-size: 14pt;top:-138px;left:260px;left:255px}
 .doodlesbutton{font-size: 14pt;top:-210px;left:400px}
 h1{position:relative;left:10px}
-.buttontext{visibility: hidden;}
+dialog{visibility: hidden;}
+.a{position:relative;width:200px;left:-10px}
+  .atext{position: relative;font-size: 18pt;top:-35px;left:60px;}
+.b{position:relative;width:200px;left:-90px}
+  .btext{position: relative;font-size: 18pt;top:-35px;left:-10px;}
 }
