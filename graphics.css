@@ -315,7 +315,7 @@ grid-auto-columns:1fr;
 .photography{font-size: 14pt;top:-138px;left:260px;left:255px}
 .doodlesbutton{font-size: 14pt;top:-210px;left:400px}
 h1{position:relative;left:10px}
-dialog{visibility: hidden;display: none;}
+dialog{visibility: hidden;display: none;position:hidden;left:1000px}
 .a{position:relative;width:200px;left:-20px}
   .atext{position: relative;font-size: 18pt;top:-35px;left:50px;}
 .b{position:relative;width:200px;left:-90px}
