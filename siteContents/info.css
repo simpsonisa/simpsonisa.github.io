@@ -2,13 +2,13 @@
 *{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
 .container{display: grid;
     grid-template-areas:
-        ". m m m m ."
-        "p p p p b b"
-        "p p p p b b"
-        "p p p p b b"
-        ". l l l l ."
-        "c c c c t t"
-        "c c c c t t";
+        ". m m m ."
+        "p p p b b"
+        "p p p b b"
+        "p p p b b"
+        ". l l l ."
+        "c c c t t"
+        "c c c t t";
 }
 a:visited{
     color: rgb(230, 298, 97);;text-decoration: none;}
@@ -79,4 +79,5 @@ h4{position: relative;
     font-size: 15pt;
     top: -40px;
     z-index: 2;
-    background-color: rgb(37,37,37);border-radius: 8px;}
+    background-color: rgb(37,37,37);border-radius: 8px;
+    width: 100px;}

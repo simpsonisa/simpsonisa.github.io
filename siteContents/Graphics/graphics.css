@@ -1,6 +1,6 @@
 *{font-family: 'Monda', sans-serif;}
 *{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
-h1{text-align: center;}
+h1{text-align: center;top:-20px;position: relative;}
 .container{display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr; margin-left: 25px;margin-right: 25px;
@@ -17,8 +17,8 @@ a:visited{
     color: rgb(230, 298, 97);;text-decoration: none;}
 a{color: rgb(230, 298, 97);text-decoration: none;}
 
-    .masthead{ background-color: rgb(37,37,37);border-radius: 10pt;
-        width: 710px; margin-left: 80px;height: 45px;}
+.masthead{ position:relative;background-color: rgb(37,37,37);border-radius: 10pt;
+    width: 85%;height: 45px;margin-left: 80px;top:-48px}
     
             .infobutton{ position: relative;
                 top:2px;
@@ -26,15 +26,15 @@ a{color: rgb(230, 298, 97);text-decoration: none;}
                 color: rgb(230, 298, 97); font-size:18pt}
             .graphicsbutton{ position:relative;
                 top:-92px;
-                right: -170px;
+                right: -220px;
                 color: rgb(230, 298, 97);; font-size:18pt}
              .photography{ position: relative;
                 top:-188px;
-                right:-320px;
+                right:-420px;
                 color: rgb(230, 298, 97);; font-size:18pt}
             .doodlesbutton{ position: relative;
                 top:-282px;
-                right: -520px;
+                right: -650px;
                 color: rgb(230, 298, 97);; font-size:18pt}
 .atext{position: relative;
     top: -30px;
