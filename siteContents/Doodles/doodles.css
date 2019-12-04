@@ -1,194 +1,60 @@
-*{font-family: 'Monda', sans-serif;}
-*{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
-h1{text-align: center;top:-20px;position: relative;}
-.container{display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr; margin-left: 25px;margin-right: 25px;
-    grid-gap: 4px;
+*{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), 
+  auto;font-family: 'Monda', sans-serif;margin-left: -2px;margin-top:-8px}
+
+.container{
+  display: grid;
+  grid-gap:20px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat (6, 1fr);
+  grid-template-areas:
+  ". i g p d ."
+  ". a a a a ."
+  ". . j j . ."
+  ". . v l . ."
+  ". . b . . ."
+  ". . . . . .";
 }
-.a{width: 300px;}
-.b{width: 300px;}
-.c{width: 300px;}
-.d{width: 300px;}
-.e{width: 300px;}
-.f{width: 300px;}
 
-.close{color: rgb(226, 215, 61);line-height: 50px;
-    background-color: rgb(37,37,37); border-radius: 4px;left: 420px;
-    position: relative;top:30px;}
 
-.sketchimage{width: 500px;}
-.sketchimage2{width: 500px;}
-.sketchimage3{width: 500px;}
-.paintimage{width: 500px;}
-.drawimage{width: 500px;}
-.drawimage2{width: 500px;}
-.drawimage3{width: 500px;}
-
-a:visited{
-    color: rgb(230, 298, 97);;text-decoration: none;}
-a{color: rgb(230, 298, 97);;text-decoration: none;}
-
-    .masthead{ position:relative;background-color: rgb(37,37,37);border-radius: 10pt;
-    width: 85%;height: 45px;margin-left: 80px;top:-48px}
-    
-            .infobutton{ position: relative;
-                top:2px;
-                left:70px;
-                color: rgb(230, 298, 97); font-size:18pt}
-            .graphicsbutton{ position:relative;
-                top:-92px;
-                right: -220px;
-                color: rgb(230, 298, 97);; font-size:18pt}
-             .photography{ position: relative;
-                top:-188px;
-                right:-420px;
-                color: rgb(230, 298, 97);; font-size:18pt}
-            .doodlesbutton{ position: relative;
-                top:-282px;
-                right: -650px;
-                color: rgb(230, 298, 97);; font-size:18pt}
-.atext{position: relative;
-    top: -30px;
-        font-size: 35px;}
-.btext{position: relative;
- top: -30px;
-        font-size: 35px;}
-.ctext{position: relative;
-        ;top: -30px;
-        font-size: 35px;}
+a:visited{color: rgb(230, 298, 97);text-decoration: none;}
+a{color: rgb(230, 298, 97);text-decoration: none;}
 
 
 
-        
+.doodleshead{grid-area:j}
 
-.a {
-    opacity: 1.0;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
+h6{display: inline;font-size:18pt;position: relative;}
+.infobutton{grid-area:i;top:110px;position:relative;
+  left:200px;}
+.graphicsbutton{grid-area:g;color: rgb(230, 298, 97);position: relative;top:110px;
+  left:250px;}
+.photography{grid-area:p;position: relative;top:110px;left:290px;}
+.doodlesbutton{grid-area:d;position: relative;top:110px;left:180px;}
+.bar{grid-area:a;background-color: rgb(37,37,37);border-radius: 10pt;
+  width: 85%; margin-left: 80px;height: 45px;}
+
+.drawing{grid-area:l}
+.sketches{grid-area:v}
+.painting{grid-area:b}
+
+
+.textlabel{position:relative;font-size: 25pt;;text-align:center;}
+
+img{width: 300px;}
+h1{text-align: center;}
+
+
+@media screen and (max-width: 700px) {
+  img{width: 200px;position: relative;z-index: 3;left:-120px;}
+  .textlabel{left:-160px;font-size: 17pt;}
+  .textdescript{left: -121px;font-size:10pt;text-align: left;line-height: 20px;}
+  .doodleshead{right:125px;position: relative;top:5px;}
+  .bar{left:-150px;position: relative;z-index: -1;width:575px;border-radius: 0px;}
+  *{cursor: default}
+
+
+  .infobutton{left:40px;font-size:14pt;}
+  .graphicsbutton{left:70px;font-size:14pt;}
+  .photography{left:100px;font-size:14pt;}
+  .doodlesbutton{left:25px;font-size:14pt;}
 }
-.a:hover {
-    opacity: .6;
-    transition: opacity .70s ease-in-out;
-    -moz-transition: opacity .70s ease-in-out;
-    -webkit-transition: opacity .70s ease-in-out;}
-.b {
-    opacity: 1.0;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-.b:hover {
-    opacity: .6;
-    transition: opacity .70s ease-in-out;
-    -moz-transition: opacity .70s ease-in-out;
-    -webkit-transition: opacity .70s ease-in-out;}
-.c {
-    opacity: 1.0;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-.c:hover {
-    opacity: .6;
-    transition: opacity .70s ease-in-out;
-    -moz-transition: opacity .70s ease-in-out;
-    -webkit-transition: opacity .70s ease-in-out;}
-.d {
-    opacity: 1.0;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-.d:hover {
-    opacity: .6;
-    transition: opacity .70s ease-in-out;
-    -moz-transition: opacity .70s ease-in-out;
-    -webkit-transition: opacity .70s ease-in-out;}
-
-
- #fade{ 
-    animation: fadeInAnimation ease 2.5s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-} 
-  
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
-}    
-
-
-#toggle{
-    visibility: hidden;
-    opacity: 0;
-    position: relative;
-    z-index: -1;
-    
-  }
-    #toggle:checked ~ dialog {
-    display: block;
-  }
-  @keyframes appear {
-    0%{
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-  }
-  dialog{
-    animation: appear 350ms ease-in 1;
-    max-width: 500px;
-    top: 170px;
-  }
-  .sketchtext{position:absolute;z-index:2}
-
-  #toggle2{
-    visibility: hidden;
-    opacity: 0;
-    position: relative;
-    z-index: -1;
-    
-  }
-    #toggle2:checked ~ dialog {
-    display: block;
-  }
-  @keyframes appear {
-    0%{
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-  }
-  dialog{
-    animation: appear 350ms ease-in 1;
-    max-width: 500px;
-    top: 170px;
-  }
-  .painttext{position:absolute;z-index:2}
-
-  #toggle3{
-    visibility: hidden;
-    opacity: 0;
-    position: relative;
-    z-index: -1;
-    
-  }
-    #toggle3:checked ~ dialog {
-    display: block;
-  }
-  @keyframes appear {
-    0%{
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-  }
-  dialog{
-    animation: appear 350ms ease-in 1;
-    max-width: 500px;
-    top: 170px;
-  }
-  .drawtext{position:absolute;z-index:2}
