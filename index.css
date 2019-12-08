@@ -22,7 +22,7 @@ a{color: rgb(230, 298, 97);;text-decoration: none;}
         .infobutton{ position: relative;
             top:-54px;
             left:55px;
-            color: rgb(230, 298, 97);; font-size:18pt}
+            color: rgb(230, 298, 97); font-size:18pt}
         .graphicsbutton{ position:relative;
             top:-148px;
             right: -155px;
@@ -103,7 +103,7 @@ h4{position: relative;
 .insta{visibility: hidden;}
 .red{visibility: hidden;}
 .portrait{width: 60%;position: relative;left:-40px;top:10px}
-.masthead{position: relative;right:100px;}
+.masthead{position: relative;right:100px;border-radius: 0;width: 110vw;}
 .infobutton{font-size: 14pt;top:-35px;left:60px}
 .graphicsbutton{font-size: 14pt;top:-109px;left:140px}
 .photography{font-size: 14pt;top:-182px;left:260px}
@@ -118,3 +118,5 @@ h4{position:relative;left:197px;}
 .listtwo{text-align: center;position: relative;left:-280px;top:-170px}
 *{cursor: default}
 }
+
+A:hover{ color: #81ffab;}

@@ -25,14 +25,16 @@
     font-size: 4em;
     font-family:basic-sans;font-weight:Bold;
     background-color: #81ffab;
+    box-shadow: 0 0 0 2pt #313639
     }
 
 .skills {
     grid-area: s;
-    background-color: #81ffab; 
+    background-color: #81ffab;
     text-align: left;
     font-size: 105%;
-    padding-right:80px;}
+    padding-right:80px;
+    box-shadow: 0 0 0 2pt #313639}
 
 .icon {
     grid-area: i;
@@ -44,14 +46,16 @@
     grid-area: c;
     background-color: #81ffab;
     text-align:center;
-    padding-right:10px;}
+    padding-right:10px;
+    box-shadow: 0 0 0 2pt #313639}
 .behance {
     grid-area: p;
     background-color: #81ffab;
     text-align: center;
     line-height: 0%;
     font-size: 150%;
-    padding-right:10px;}
+    padding-right:10px;
+    box-shadow: 0 0 0 2pt #313639}
 
 .portfolio {
     grid-area: w;
@@ -62,14 +66,16 @@
     background-color: #81ffab;
     text-align: left;
     font-size: 105%;
-    padding-right:40px;}
+    padding-right:40px;
+    box-shadow: 0 0 0 2pt #313639}
 
 h1{font-family:basic-sans;font-weight:SemiBold;
     text-align: left;}
 
 .footer {
     grid-area: f;
-    background-color: #81ffab;}
+    background-color: #81ffab;
+    box-shadow: 0 0 0 2pt #313639}
 
 .icon:hover {
     transform-origin: center;
@@ -91,7 +97,8 @@ h1{font-family:basic-sans;font-weight:SemiBold;
     grid-area: a;
     background-color: #81ffab; 
     text-align:left;
-    padding-right:40px;}
+    padding-right:40px;
+    box-shadow: 0 0 0 2pt #313639}
 
 .boldhobbies {line-height: 1px;text-decoration: underline}
 

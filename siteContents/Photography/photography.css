@@ -7,8 +7,8 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat (6, 1fr);
   grid-template-areas:
-  ". i g p d ."
   ". a a a a ."
+  ". . . . . ."
   ". . j j . ."
   ". . v l . ."
   ". . b w . ."
@@ -19,19 +19,19 @@
 a:visited{color: rgb(230, 298, 97);text-decoration: none;}
 a{color: rgb(230, 298, 97);text-decoration: none;}
 
+.masthead{grid-area:a;background-color: rgb(37,37,37);border-radius: 10pt;
+  width: 85%; margin-left: 80px;height: 45px;top:32px;position: relative;}
 
-
-.photographyhead{grid-area:j}
+.photographyhead{grid-area:j;position: relative;top:20px}
 
 h6{display: inline;font-size:18pt;position: relative;}
-.infobutton{grid-area:i;top:110px;position:relative;
-  left:200px;}
-.graphicsbutton{grid-area:g;color: rgb(230, 298, 97);position: relative;top:110px;
-  left:250px;}
-.photography{grid-area:p;position: relative;top:110px;left:290px;}
-.doodlesbutton{grid-area:d;position: relative;top:110px;left:180px;}
-.bar{grid-area:a;background-color: rgb(37,37,37);border-radius: 10pt;
-  width: 85%; margin-left: 80px;height: 45px;}
+.infobutton{grid-area:i;top:5px;z-index: 3;position:relative;
+  left:50px;}
+.graphicsbutton{grid-area:g;color: rgb(230, 298, 97);position: relative;top:5px;z-index: 3;
+  left:100px;}
+.photography{grid-area:p;position: relative;top:5px;z-index: 3;left:160px;}
+.doodlesbutton{grid-area:d;position: relative;top:5px;z-index: 3;left:210px;}
+
 
 .party{grid-area:l}
 .grave{grid-area:v}
@@ -48,19 +48,19 @@ h1{text-align: center;}
 
 
 @media screen and (max-width: 700px) {
-  img{width: 200px;position: relative;z-index: 3;left:-120px;}
-  .textlabel{left:-160px;font-size: 17pt;}
-  .textdescript{left: -121px;font-size:10pt;text-align: left;line-height: 20px;}
-  .photographyhead{right:125px;position: relative;top:5px;}
-  .bar{left:-150px;position: relative;z-index: -1;width:575px;border-radius: 0px;}
+  img{width: 200px;position: relative;z-index: 3;left:-10px;}
+  .textlabel{left:-10px;font-size: 17pt;}
+  .textdescript{left: -10px;font-size:10pt;text-align: left;line-height: 20px;}
+  .photographyhead{position: relative;top:20px;}
+  .masthead{position: relative;right:105px;border-radius: 0;width: 110vw;}
   *{cursor: default}
   dialog{visibility: hidden;display: none;position:hidden;}
 
 
-  .infobutton{left:40px;font-size:14pt;}
-  .graphicsbutton{left:70px;font-size:14pt;}
-  .photography{left:100px;font-size:14pt;}
-  .doodlesbutton{left:25px;font-size:14pt;}
+  .infobutton{left:60px;font-size:14pt;}
+  .graphicsbutton{left:100px;font-size:14pt;}
+  .photography{left:145px;font-size:14pt;}
+  .doodlesbutton{left:170px;font-size:14pt;}
 }
 
 .close{color: rgb(226, 215, 61);line-height: 50px;
@@ -70,6 +70,8 @@ h1{text-align: center;}
 
 
 /*animations*/
+
+A:hover{ color: #81ffab;}
 
  #fade{ 
     animation: fadeInAnimation ease 2.5s;
