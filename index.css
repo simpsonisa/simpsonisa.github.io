@@ -86,6 +86,7 @@ h4{position: relative;
     /* Mobile */
 
 @media screen and (max-width: 600px) {
+    *{left: -15px;}
 .container {
     font-size: 120%;
     height: 100%;
@@ -102,12 +103,12 @@ h4{position: relative;
     "t"}
 .insta{visibility: hidden;}
 .red{visibility: hidden;}
-.portrait{width: 60%;position: relative;left:-40px;top:10px}
-.masthead{position: relative;left:-0%;border-radius: 0;width: 110vw;}
-.infobutton{font-size: 14pt;top:-35px;left:60px}
-.graphicsbutton{font-size: 14pt;top:-109px;left:140px}
-.photography{font-size: 14pt;top:-182px;left:260px}
-.doodlesbutton{font-size: 14pt;top:-254px;left:400px}
+.portrait{width: 60%;position: relative;left:-55px;top:10px}
+.masthead{position: relative;left:-5%;border-radius: 0;width: 110vw;}
+.infobutton{font-size: 14pt;top:-35px;left:50px}
+.graphicsbutton{font-size: 14pt;top:-109px;left:130px}
+.photography{font-size: 14pt;top:-182px;left:250px}
+.doodlesbutton{font-size: 14pt;top:-254px;left:390px}
 h5{position: relative;left:180px;}
 p{text-align: center;padding-right:70px;padding-left:10px}
 h4{position:relative;left:197px;}
