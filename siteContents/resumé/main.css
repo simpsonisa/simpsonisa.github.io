@@ -1,11 +1,11 @@
 *{cursor:url(https://66.media.tumblr.com/c03f5d95dd5889bf86196da1821a23ff/da63d489c665f579-5a/s75x75_c1/fd89ff7e3356627fa6a0d3bb8290e17d02b62d77.png), auto;}
+*{font-family: 'Monda', sans-serif;}
 .container > div {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #313639;
-    font-family:basic-sans;
-    border-radius: 13px;}
+    font-family:basic-sans;}
 
 .container {
     display: grid;
@@ -20,21 +20,24 @@
         "b b b p p p p p s s s"
         "f f f f f f f f f f f";}
 
+a:visited{
+    color:#81ffab;text-decoration: none;}
+a{color:#81ffab;text-decoration: none;}
+
 .header {
+    border-radius: 0pt !important;
     grid-area: h;
     font-size: 4em;
     font-family:basic-sans;font-weight:Bold;
-    background-color: #81ffab;
+    background-color: rgb(37,37,37);
     box-shadow: 0 0 0 2pt #313639
     }
 
 .skills {
     grid-area: s;
-    background-color: #81ffab;
     text-align: left;
     font-size: 105%;
-    padding-right:80px;
-    box-shadow: 0 0 0 2pt #313639}
+    padding-right:80px;}
 
 .icon {
     grid-area: i;
@@ -44,37 +47,32 @@
 
 .contact {
     grid-area: c;
-    background-color: #81ffab;
     text-align:center;
-    padding-right:10px;
-    box-shadow: 0 0 0 2pt #313639}
+    padding-right:10px;}
 .behance {
     grid-area: p;
-    background-color: #81ffab;
     text-align: center;
     line-height: 0%;
     font-size: 150%;
     padding-right:10px;
-    box-shadow: 0 0 0 2pt #313639}
+    background-color:rgb(37,37,37);
+}
 
 .portfolio {
-    grid-area: w;
-    background-color: #81ffab;}
+    grid-area: w;}
 
 .bio {
-    grid-area: b;
-    background-color: #81ffab;
+    grid-area: b;;
     text-align: left;
     font-size: 105%;
-    padding-right:40px;
-    box-shadow: 0 0 0 2pt #313639}
+    padding-right:40px;}
 
 h1{font-family:basic-sans;font-weight:SemiBold;
     text-align: left;}
 
 .footer {
     grid-area: f;
-    background-color: #81ffab;
+    background-color: rgb(37,37,37);
     box-shadow: 0 0 0 2pt #313639}
 
 .icon:hover {
@@ -94,15 +92,15 @@ h1{font-family:basic-sans;font-weight:SemiBold;
     text-decoration: underline;}
 
 .hobbies {
-    grid-area: a;
-    background-color: #81ffab; 
+    grid-area: a; 
     text-align:left;
-    padding-right:40px;
-    box-shadow: 0 0 0 2pt #313639}
+    padding-right:40px;}
 
 .boldhobbies {line-height: 1px;text-decoration: underline}
 
 .hey{text-decoration: underline}
+
+.names{color: rgb(230, 298, 97)}
 
 @media screen and (max-width: 600px) {
 .container {
@@ -126,9 +124,14 @@ h1{text-align: center}
 .hobbies{text-align: center}
 .contact{padding-right:40px;}
 .behance{padding-right:40px;}
-.bio{text-align: justify; font-size: 2em;}
+.bio{text-align: left; font-size: 2em;}
 .header{text-align: center;font-size: 3em;}
 .icon{padding-left:15px ;}
-*{cursor: default}
+*{cursor:default}
 }
 
+A:hover{color: rgb(230, 298, 97)}
+.bio:hover{ background-color:rgb(37,37,37);color: #81ffab;}
+.skills:hover{ background-color:rgb(37,37,37);color: #81ffab;}
+.hobbies:hover{ background-color: rgb(37,37,37);color: #81ffab;}
+.contact:hover{ background-color: rgb(37,37,37);color: #81ffab;}

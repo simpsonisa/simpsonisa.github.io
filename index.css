@@ -4,7 +4,7 @@
     grid-template-columns:1fr -1fr -1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-        ". m m m ."
+        "m m m m m"
         "p p p b b"
         "p p p b b"
         "p p p b b"
@@ -13,27 +13,27 @@
         "c c c t t";
 }
 a:visited{
-    color: rgb(230, 298, 97);;text-decoration: none;}
-a{color: rgb(230, 298, 97);;text-decoration: none;}
+    color: rgb(230, 298, 97);text-decoration: none;}
+a{color: rgb(230, 298, 97);text-decoration: none;}
 
-.masthead{ grid-area: m;background-color: rgb(37,37,37);border-radius: 10pt;
-    width: 85%; margin-left: 80px;height: 45px;}
+.masthead{ grid-area: m;background-color: rgb(37,37,37);
+    width: 110%;height: 45px; left:-0;position:absolute}
 
         .infobutton{ position: relative;
             top:-54px;
-            left:55px;
+            left:255px;
             color: rgb(230, 298, 97); font-size:18pt}
         .graphicsbutton{ position:relative;
             top:-148px;
-            right: -155px;
+            right: -355px;
             color: rgb(230, 298, 97);; font-size:18pt}
          .photography{ position: relative;
             top:-244px;
-            right:-305px;
+            right:-505px;
             color: rgb(230, 298, 97);; font-size:18pt}
         .doodlesbutton{ position: relative;
             top:-337px;
-            right: -505px;
+            right: -705px;
             color: rgb(230, 298, 97);; font-size:18pt}
 
 .portrait{ grid-area: p;
@@ -103,7 +103,7 @@ h4{position: relative;
 .insta{visibility: hidden;}
 .red{visibility: hidden;}
 .portrait{width: 60%;position: relative;left:-40px;top:10px}
-.masthead{position: relative;right:100px;border-radius: 0;width: 110vw;}
+.masthead{position: relative;left:-0%;border-radius: 0;width: 110vw;}
 .infobutton{font-size: 14pt;top:-35px;left:60px}
 .graphicsbutton{font-size: 14pt;top:-109px;left:140px}
 .photography{font-size: 14pt;top:-182px;left:260px}
